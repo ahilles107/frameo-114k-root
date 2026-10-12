@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Result-sector formats written by the probe, backup and install images."""
 import re
 import zlib

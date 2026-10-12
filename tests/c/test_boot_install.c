@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0+
+// Copyright (C) 2026 Pawel Mikolajczuk
 #include <assert.h>
 #include <string.h>
 #include "boot_install_core.h"

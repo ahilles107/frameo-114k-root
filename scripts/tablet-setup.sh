@@ -1,5 +1,6 @@
 #!/bin/sh
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 # Turn a rooted Frameo 114K into a plain Android 6.0.1 tablet. Every step is reversible.
 # Usage: scripts/tablet-setup.sh --serial 192.0.2.10:5555 --apks DIR [--download]
 # See docs/android-tablet-setup.md.

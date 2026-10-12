@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Prepare a pristine U-Boot v2026.07 tree for one SD-boot stage."""
 import json
 import shutil

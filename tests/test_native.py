@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Compile and run the C guard, transaction and installer tests on the host."""
 import hashlib
 import os

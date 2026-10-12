@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Work directory: owner backups, built images, results. Files stay owned by the invoking user under sudo."""
 import hashlib
 import json

@@ -1,4 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0+ */
+/* Copyright (C) 2026 Pawel Mikolajczuk */
 #ifndef FRAMEO_PROBE_GUARD_H
 #define FRAMEO_PROBE_GUARD_H
 static inline int frameo_command_allowed(unsigned controller, unsigned command,

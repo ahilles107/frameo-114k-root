@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """SD card access on macOS through diskutil and the raw /dev/rdiskN device."""
 import os
 import plistlib

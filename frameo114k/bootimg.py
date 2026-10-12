@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Patch a stock Frameo 114K boot image for authenticated root ADB over Wi-Fi.
 
 Changes only the ramdisk: TCP ADB on port 5555 in default.prop, adbd started from

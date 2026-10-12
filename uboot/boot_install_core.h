@@ -1,4 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0+ */
+/* Copyright (C) 2026 Pawel Mikolajczuk */
 #ifndef FRAMEO_BOOT_INSTALL_CORE_H
 #define FRAMEO_BOOT_INSTALL_CORE_H
 #include <stddef.h>

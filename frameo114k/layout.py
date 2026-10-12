@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """SD card prefix layout shared by every stage.
 
 The Allwinner boot ROM loads the SPL from byte 8192 of the SD card. Each

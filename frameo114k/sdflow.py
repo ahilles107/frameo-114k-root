@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """SD card workflow: record the card, write a stage, read its result, restore."""
 import json
 import os

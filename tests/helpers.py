@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Synthetic fixtures. No vendor firmware is stored in this repository."""
 import struct
 

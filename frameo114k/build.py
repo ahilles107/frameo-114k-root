@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Build stage images with the pinned U-Boot release inside Docker."""
 import json
 import os

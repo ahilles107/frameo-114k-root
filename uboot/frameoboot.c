@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0+
+// Copyright (C) 2026 Pawel Mikolajczuk
 /*
  * Boot-partition-only installer for the Frameo 114K. Loads the original and
  * patched boot images from the SD card, checks their hashes and the internal

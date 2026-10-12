@@ -1,4 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
+# Copyright (C) 2026 Pawel Mikolajczuk
 """Command-line entry point. Run through the ./frameo wrapper."""
 import argparse
 import json
