@@ -17,7 +17,10 @@ while [ $# -gt 0 ]; do
         *) echo "Unknown argument: $1" >&2; exit 2 ;;
     esac
 done
-[ -n "$serial" ] && [ -n "$apks" ] || { echo "Usage: $0 --serial HOST:PORT --apks DIR [--download]" >&2; exit 2; }
+if [ -z "$serial" ] || [ -z "$apks" ]; then
+    echo "Usage: $0 --serial HOST:PORT --apks DIR [--download]" >&2
+    exit 2
+fi
 
 # file|sha256|url. Hashes were checked against the F-Droid index and Mozilla's release signer.
 APK_LIST='fr.neamar.kiss_224.apk|da6ab0b1219ad3b5ee573698523fb15d60a918083e0843f94a03c1b12e1098c9|https://f-droid.org/repo/fr.neamar.kiss_224.apk
