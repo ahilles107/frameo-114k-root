@@ -1,0 +1,4 @@
+#!/bin/sh
+# Wrapper so `./frameo` and `sudo ./frameo` work from any directory.
+here=$(cd "$(dirname "$0")" && pwd)
+PYTHONPATH="$here${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m frameo114k "$@"
